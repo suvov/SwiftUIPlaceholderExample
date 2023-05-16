@@ -29,6 +29,10 @@ struct CityListView_Previews: PreviewProvider {
     CityListView(model: .stub)
       .previewLayout(.sizeThatFits)
       .previewDisplayName("Normal")
+    CityListView(model: .stub)
+      .previewLayout(.sizeThatFits)
+      .previewDisplayName("Skeleton")
+      .redacted(reason: .placeholder)
   }
 }
 
