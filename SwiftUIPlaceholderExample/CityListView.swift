@@ -7,35 +7,17 @@ struct CityListView: View {
     let cities: [CityView.Model]
   }
 
-  let model: Model?
+  let model: Model
 
   // MARK: View
 
   var body: some View {
     VStack {
-      let cities = model?.cities ?? Model.placeholder.cities
-      ForEach(cities, id: \.self) {
+      ForEach(model.cities, id: \.self) {
         CityView(model: $0)
           .padding(.vertical)
       }
     }
-    .redacted(reason: model == nil ? .placeholder : [])
-    .padding(.horizontal)
-  }
-}
-
-// MARK: - Model placeholder
-
-extension CityListView.Model {
-  static var placeholder: Self {
-    .init(cities: [
-      .init(title: "Placeholder",
-            subtitle: "Plchldr"),
-      .init(title: "Placeholder",
-            subtitle: "Plchldr"),
-      .init(title: "Placeholder",
-            subtitle: "Plchldr"),
-    ])
   }
 }
 
@@ -46,9 +28,6 @@ struct CityListView_Previews: PreviewProvider {
     CityListView(model: .stub)
       .previewLayout(.sizeThatFits)
       .previewDisplayName("Normal")
-    CityListView(model: nil)
-      .previewLayout(.sizeThatFits)
-      .previewDisplayName("Skeleton")
   }
 }
 
