@@ -12,6 +12,7 @@
 		E731D29C2A13C139008C35D8 /* CityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E731D29B2A13C139008C35D8 /* CityListView.swift */; };
 		E731D3092A13D9E6008C35D8 /* CityListLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E731D3082A13D9E6008C35D8 /* CityListLoadingView.swift */; };
 		E731D36C2A13DB32008C35D8 /* CitiesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E731D36B2A13DB32008C35D8 /* CitiesScreen.swift */; };
+		E7B4AB9E2A1752D100FE5C6E /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B4AB9D2A1752D100FE5C6E /* HelloWorld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E731D29B2A13C139008C35D8 /* CityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListView.swift; sourceTree = "<group>"; };
 		E731D3082A13D9E6008C35D8 /* CityListLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListLoadingView.swift; sourceTree = "<group>"; };
 		E731D36B2A13DB32008C35D8 /* CitiesScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesScreen.swift; sourceTree = "<group>"; };
+		E7B4AB9D2A1752D100FE5C6E /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				E731D2922A13BE59008C35D8 /* SwiftUIPlaceholderExample.h */,
 				E731D2992A13BE76008C35D8 /* CityView.swift */,
+				E7B4AB9D2A1752D100FE5C6E /* HelloWorld.swift */,
 				E731D29B2A13C139008C35D8 /* CityListView.swift */,
 				E731D3082A13D9E6008C35D8 /* CityListLoadingView.swift */,
 				E731D36B2A13DB32008C35D8 /* CitiesScreen.swift */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B4AB9E2A1752D100FE5C6E /* HelloWorld.swift in Sources */,
 				E731D29A2A13BE76008C35D8 /* CityView.swift in Sources */,
 				E731D3092A13D9E6008C35D8 /* CityListLoadingView.swift in Sources */,
 				E731D36C2A13DB32008C35D8 /* CitiesScreen.swift in Sources */,
